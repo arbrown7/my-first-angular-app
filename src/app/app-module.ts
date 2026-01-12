@@ -6,13 +6,15 @@ import { App } from './app';
 import { Servers } from './servers/servers';
 import { WarningAlert } from './warning-alert/warning-alert';
 import { SuccessAlert } from './success-alert/success-alert';
+import { Server } from './server/server';
 
 @NgModule({
   declarations: [
     App,
     Servers,
     WarningAlert,
-    SuccessAlert
+    SuccessAlert,
+    Server
   ],
   imports: [
     BrowserModule,
